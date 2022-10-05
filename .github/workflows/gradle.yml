@@ -36,12 +36,12 @@ jobs:
         with:
           arguments: build
       - name: SSH Remote Commands
-        uses: appleboy/ssh-action@v0.1.4
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          timeout: 40s  # 30초 기본
           script: |
-            echo "테스트 출력"
+            whoami
+            ls -al
