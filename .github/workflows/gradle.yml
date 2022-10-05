@@ -35,11 +35,13 @@ jobs:
         uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
         with:
           arguments: build
-      - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@master
+      - name: SSH Remote Commands
+        uses: appleboy/ssh-action@v0.1.4
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY_ED25519 }}
+          password: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: sh yourscript.sh
+          timeout: 40s  # 30초 기본
+          script: |
+            echo "테스트 출력"
