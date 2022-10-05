@@ -33,5 +33,6 @@ jobs:
             ls -a
           host: ${{ secrets.HOST }}
           user: root
-          key: ${{ secrets.KEY}}
+          key: ${{ secrets.PRIVATE_KEY}}
+          # Pseudo-terminal will not be allocated because stdin is not a terminal. 발생 시 아래 args: "-tt" 추가
           args: "-tt"
