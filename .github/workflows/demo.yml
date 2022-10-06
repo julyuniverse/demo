@@ -30,7 +30,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
       - name: Execute Gradle build
-        run: ./gradlew build
+        run: ./gradlew clean build
       # 원격 서버 접속
       - name: SSH Remote Commands
         uses: fifsky/ssh-action@master
