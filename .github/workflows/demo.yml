@@ -38,9 +38,7 @@ jobs:
           # 실행
           command: |
             cd ~/app/script/
-            ./demo-deploy.sh
-            cd /tmp
-            ls -a
+            ./demo-deploy.sh &
           host: ${{ secrets.HOST }}
           user: root
           key: ${{ secrets.PRIVATE_KEY}}
