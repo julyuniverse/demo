@@ -1,0 +1,649 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-05 14:58:13.356  INFO 26875 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 26875 (/root/app/git/demo-0.0.1-SNAPSHOT-20221005145653.jar started by root in /root/app/git/demo)
+2022-10-05 14:58:13.360  INFO 26875 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-10-05 14:58:16.549  INFO 26875 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-05 14:58:16.591  INFO 26875 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-05 14:58:16.592  INFO 26875 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-05 14:58:16.767  INFO 26875 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-05 14:58:16.770  INFO 26875 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3261 ms
+2022-10-05 14:58:18.664  INFO 26875 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-05 14:58:18.776  INFO 26875 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-05 14:58:18.815  INFO 26875 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.522 seconds (JVM running for 7.599)
+2022-10-05 15:11:36.725  INFO 26875 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-05 15:11:36.726  INFO 26875 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-05 15:11:36.728  INFO 26875 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-05 16:23:42.462  INFO 28971 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 28971 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221005162322.jar started by root in /root/app/git/demo)
+2022-10-05 16:23:42.470  INFO 28971 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-10-05 16:23:45.397  INFO 28971 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-05 16:23:45.425  INFO 28971 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-05 16:23:45.426  INFO 28971 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-05 16:23:45.598  INFO 28971 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-05 16:23:45.602  INFO 28971 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2986 ms
+2022-10-05 16:23:47.615  INFO 28971 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-05 16:23:47.716  INFO 28971 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-05 16:23:47.754  INFO 28971 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.352 seconds (JVM running for 7.54)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-05 16:28:27.761  INFO 29216 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 29216 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221005162814.jar started by root in /root/app/git/demo)
+2022-10-05 16:28:27.769  INFO 29216 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-10-05 16:28:30.646  INFO 29216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-05 16:28:30.673  INFO 29216 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-05 16:28:30.676  INFO 29216 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-05 16:28:30.835  INFO 29216 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-05 16:28:30.836  INFO 29216 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2935 ms
+2022-10-05 16:28:32.591  INFO 29216 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-05 16:28:32.664  INFO 29216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-05 16:28:32.700  INFO 29216 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 5.954 seconds (JVM running for 7.011)
+2022-10-05 16:42:05.219  INFO 29216 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-05 16:42:05.220  INFO 29216 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-05 16:42:05.222  INFO 29216 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-05 19:18:01.548  INFO 29216 --- [io-8080-exec-10] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [MGLNDD_61.97.187.54_80800x0a...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 11:27:35.773  INFO 18182 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 18182 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006112709.jar started by root in /root/app/git/demo)
+2022-10-06 11:27:35.779  INFO 18182 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-10-06 11:27:38.895  INFO 18182 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-06 11:27:38.918  INFO 18182 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 11:27:38.919  INFO 18182 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 11:27:39.114  INFO 18182 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 11:27:39.114  INFO 18182 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3187 ms
+2022-10-06 11:27:41.112  INFO 18182 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 11:27:41.217  INFO 18182 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-06 11:27:41.256  INFO 18182 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.566 seconds (JVM running for 7.698)
+2022-10-06 11:28:51.233  INFO 18182 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 11:28:51.240  INFO 18182 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 11:28:51.247  INFO 18182 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+Error: Unable to access jarfile set1-demo.jar
+Error: Unable to access jarfile set1-demo.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:08:38.270  INFO 22196 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 22196 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006140824.jar started by root in /root/app/git/demo)
+2022-10-06 14:08:38.276  INFO 22196 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 14:08:41.149  INFO 22196 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 14:08:41.175  INFO 22196 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:08:41.178  INFO 22196 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:08:41.394  INFO 22196 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:08:41.394  INFO 22196 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2986 ms
+2022-10-06 14:08:43.148  INFO 22196 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:08:43.242  INFO 22196 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 14:08:43.279  INFO 22196 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.224 seconds (JVM running for 7.285)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:09:13.624  INFO 22400 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 22400 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006140854.jar started by root in /root/app/git/demo)
+2022-10-06 14:09:13.632  INFO 22400 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 14:09:16.566  INFO 22400 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 14:09:16.596  INFO 22400 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:09:16.597  INFO 22400 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:09:16.813  INFO 22400 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:09:16.815  INFO 22400 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3046 ms
+2022-10-06 14:09:18.717  INFO 22400 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:09:18.819  INFO 22400 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 14:09:18.860  INFO 22400 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.471 seconds (JVM running for 7.578)
+2022-10-06 14:10:21.588  INFO 22400 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 14:10:21.595  INFO 22400 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 14:10:21.597  INFO 22400 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:18:53.416  INFO 22702 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 22702 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006141834.jar started by root in /root/app/git/demo)
+2022-10-06 14:18:53.425  INFO 22702 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 14:18:56.343  INFO 22702 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 14:18:56.368  INFO 22702 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:18:56.369  INFO 22702 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:18:56.614  INFO 22702 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:18:56.614  INFO 22702 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3054 ms
+2022-10-06 14:18:58.449  INFO 22702 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:18:58.545  INFO 22702 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 14:18:58.584  INFO 22702 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.381 seconds (JVM running for 7.498)
+2022-10-06 14:19:01.192  INFO 22702 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 14:19:01.192  INFO 22702 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 14:19:01.196  INFO 22702 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:19:52.981  INFO 22860 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 22860 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006141934.jar started by root in /root/app/git/demo)
+2022-10-06 14:19:52.985  INFO 22860 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 14:19:55.999  INFO 22860 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 14:19:56.021  INFO 22860 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:19:56.028  INFO 22860 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:19:56.241  INFO 22860 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:19:56.243  INFO 22860 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3114 ms
+2022-10-06 14:19:58.105  INFO 22860 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:19:58.200  INFO 22860 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 14:19:58.238  INFO 22860 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.51 seconds (JVM running for 7.6)
+2022-10-06 14:20:00.746  INFO 22860 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 14:20:00.746  INFO 22860 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 14:20:00.752  INFO 22860 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:22:46.616  INFO 23177 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 23177 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006142227.jar started by root in /root/app/git/demo)
+2022-10-06 14:22:46.624  INFO 23177 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 14:22:49.597  INFO 23177 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 14:22:49.623  INFO 23177 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:22:49.627  INFO 23177 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:22:49.842  INFO 23177 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:22:49.847  INFO 23177 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3050 ms
+2022-10-06 14:22:51.697  INFO 23177 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:22:51.799  INFO 23177 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 14:22:51.831  INFO 23177 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.479 seconds (JVM running for 7.588)
+2022-10-06 14:22:54.384  INFO 23177 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 14:22:54.390  INFO 23177 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 14:22:54.393  INFO 23177 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 14:43:34.541  INFO 24590 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 24590 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006144320.jar started by root in /root/app/git/demo)
+2022-10-06 14:43:34.549  INFO 24590 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 14:43:37.542  INFO 24590 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 14:43:37.575  INFO 24590 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 14:43:37.576  INFO 24590 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 14:43:37.811  INFO 24590 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 14:43:37.813  INFO 24590 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3116 ms
+2022-10-06 14:43:39.652  INFO 24590 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 14:43:39.751  INFO 24590 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 14:43:39.796  INFO 24590 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.524 seconds (JVM running for 7.597)
+2022-10-06 14:43:42.293  INFO 24590 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 14:43:42.295  INFO 24590 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 14:43:42.300  INFO 24590 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 15:01:58.592  INFO 25513 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 25513 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006150139.jar started by root in /root/app/git/demo)
+2022-10-06 15:01:58.596  INFO 25513 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 15:02:01.542  INFO 25513 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 15:02:01.573  INFO 25513 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 15:02:01.574  INFO 25513 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 15:02:01.771  INFO 25513 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 15:02:01.772  INFO 25513 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3031 ms
+2022-10-06 15:02:03.665  INFO 25513 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 15:02:03.770  INFO 25513 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 15:02:03.815  INFO 25513 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.453 seconds (JVM running for 7.579)
+2022-10-06 15:02:06.323  INFO 25513 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 15:02:06.325  INFO 25513 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 15:02:06.332  INFO 25513 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 15:13:11.015  INFO 25910 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 25910 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006151252.jar started by root in /root/app/git/demo)
+2022-10-06 15:13:11.024  INFO 25910 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 15:13:14.112  INFO 25910 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 15:13:14.141  INFO 25910 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 15:13:14.142  INFO 25910 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 15:13:14.378  INFO 25910 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 15:13:14.383  INFO 25910 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3200 ms
+2022-10-06 15:13:16.267  INFO 25910 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 15:13:16.381  INFO 25910 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 15:13:16.447  INFO 25910 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.707 seconds (JVM running for 7.81)
+2022-10-06 15:13:18.758  INFO 25910 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 15:13:18.763  INFO 25910 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 15:13:18.766  INFO 25910 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 15:22:37.923  INFO 26191 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 26191 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006152223.jar started by root in /root/app/git/demo)
+2022-10-06 15:22:37.931  INFO 26191 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 15:22:40.952  INFO 26191 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 15:22:40.976  INFO 26191 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 15:22:40.976  INFO 26191 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 15:22:41.218  INFO 26191 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 15:22:41.223  INFO 26191 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3133 ms
+2022-10-06 15:22:43.097  INFO 26191 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 15:22:43.201  INFO 26191 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 15:22:43.242  INFO 26191 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.588 seconds (JVM running for 7.68)
+2022-10-06 15:22:45.674  INFO 26191 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 15:22:45.674  INFO 26191 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 15:22:45.680  INFO 26191 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 15:24:35.736  INFO 26396 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 26396 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006152421.jar started by root in /root/app/git/demo)
+2022-10-06 15:24:35.744  INFO 26396 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 15:24:38.749  INFO 26396 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 15:24:38.773  INFO 26396 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 15:24:38.774  INFO 26396 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 15:24:39.012  INFO 26396 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 15:24:39.013  INFO 26396 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3122 ms
+2022-10-06 15:24:40.814  INFO 26396 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 15:24:40.899  INFO 26396 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 15:24:40.936  INFO 26396 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.469 seconds (JVM running for 7.538)
+2022-10-06 15:24:43.500  INFO 26396 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 15:24:43.501  INFO 26396 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 15:24:43.509  INFO 26396 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 15:26:42.635  INFO 26585 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 26585 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006152628.jar started by root in /root/app/git/demo)
+2022-10-06 15:26:42.644  INFO 26585 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 15:26:45.639  INFO 26585 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 15:26:45.660  INFO 26585 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 15:26:45.663  INFO 26585 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 15:26:45.884  INFO 26585 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 15:26:45.884  INFO 26585 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3085 ms
+2022-10-06 15:26:47.740  INFO 26585 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 15:26:47.861  INFO 26585 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 15:26:47.892  INFO 26585 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.519 seconds (JVM running for 7.564)
+2022-10-06 15:26:50.426  INFO 26585 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 15:26:50.430  INFO 26585 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 15:26:50.436  INFO 26585 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:27:31.733  INFO 27957 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 27957 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006162717.jar started by root in /root/app/git/demo)
+2022-10-06 16:27:31.736  INFO 27957 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:27:34.562  INFO 27957 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:27:34.588  INFO 27957 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:27:34.588  INFO 27957 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:27:34.824  INFO 27957 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:27:34.825  INFO 27957 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2959 ms
+2022-10-06 16:27:36.629  INFO 27957 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:27:36.737  INFO 27957 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:27:36.776  INFO 27957 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.28 seconds (JVM running for 7.346)
+2022-10-06 16:27:39.591  INFO 27957 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:27:39.591  INFO 27957 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:27:39.597  INFO 27957 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:30:09.563  INFO 28206 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 28206 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006162955.jar started by root in /root/app/git/demo)
+2022-10-06 16:30:09.570  INFO 28206 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:30:12.576  INFO 28206 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:30:12.602  INFO 28206 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:30:12.602  INFO 28206 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:30:12.826  INFO 28206 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:30:12.826  INFO 28206 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3109 ms
+2022-10-06 16:30:14.684  INFO 28206 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:30:14.783  INFO 28206 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:30:14.835  INFO 28206 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.529 seconds (JVM running for 7.639)
+2022-10-06 16:30:17.289  INFO 28206 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:30:17.292  INFO 28206 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:30:17.294  INFO 28206 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:32:52.413  INFO 28464 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 28464 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006163238.jar started by root in /root/app/git/demo)
+2022-10-06 16:32:52.416  INFO 28464 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:32:55.345  INFO 28464 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:32:55.370  INFO 28464 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:32:55.375  INFO 28464 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:32:55.587  INFO 28464 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:32:55.595  INFO 28464 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3057 ms
+2022-10-06 16:32:57.445  INFO 28464 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:32:57.560  INFO 28464 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:32:57.604  INFO 28464 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.413 seconds (JVM running for 7.527)
+2022-10-06 16:33:00.219  INFO 28464 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:33:00.223  INFO 28464 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:33:00.225  INFO 28464 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:39:19.777  INFO 28907 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 28907 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006163906.jar started by root in /root/app/git/demo)
+2022-10-06 16:39:19.783  INFO 28907 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:39:22.640  INFO 28907 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:39:22.664  INFO 28907 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:39:22.665  INFO 28907 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:39:22.880  INFO 28907 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:39:22.886  INFO 28907 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2967 ms
+2022-10-06 16:39:24.617  INFO 28907 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:39:24.734  INFO 28907 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:39:24.770  INFO 28907 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.175 seconds (JVM running for 7.224)
+2022-10-06 16:39:27.669  INFO 28907 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:39:27.671  INFO 28907 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:39:27.677  INFO 28907 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:43:58.838  INFO 29188 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 29188 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006164345.jar started by root in /root/app/git/demo)
+2022-10-06 16:43:58.841  INFO 29188 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:44:01.804  INFO 29188 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:44:01.835  INFO 29188 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:44:01.839  INFO 29188 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:44:02.074  INFO 29188 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:44:02.075  INFO 29188 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3100 ms
+2022-10-06 16:44:03.925  INFO 29188 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:44:04.038  INFO 29188 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:44:04.080  INFO 29188 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.423 seconds (JVM running for 7.52)
+2022-10-06 16:44:06.674  INFO 29188 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:44:06.675  INFO 29188 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:44:06.685  INFO 29188 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:46:05.177  INFO 29404 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 29404 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006164551.jar started by root in /root/app/git/demo)
+2022-10-06 16:46:05.180  INFO 29404 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 16:46:08.230  INFO 29404 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 16:46:08.261  INFO 29404 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:46:08.262  INFO 29404 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:46:08.482  INFO 29404 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:46:08.490  INFO 29404 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3158 ms
+2022-10-06 16:46:10.273  INFO 29404 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:46:10.374  INFO 29404 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 16:46:10.416  INFO 29404 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.492 seconds (JVM running for 7.606)
+2022-10-06 16:46:12.889  INFO 29404 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:46:12.890  INFO 29404 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:46:12.892  INFO 29404 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:47:03.737  INFO 29579 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 29579 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006164649.jar started by root in /root/app/git/demo)
+2022-10-06 16:47:03.751  INFO 29579 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:47:06.771  INFO 29579 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:47:06.800  INFO 29579 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:47:06.801  INFO 29579 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:47:07.058  INFO 29579 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:47:07.059  INFO 29579 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3136 ms
+2022-10-06 16:47:08.929  INFO 29579 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:47:09.027  INFO 29579 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:47:09.066  INFO 29579 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.605 seconds (JVM running for 7.655)
+2022-10-06 16:47:11.508  INFO 29579 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:47:11.515  INFO 29579 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:47:11.519  INFO 29579 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:53:58.277  INFO 29984 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 29984 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006165344.jar started by root in /root/app/git/demo)
+2022-10-06 16:53:58.285  INFO 29984 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:54:01.357  INFO 29984 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:54:01.388  INFO 29984 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:54:01.389  INFO 29984 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:54:01.615  INFO 29984 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:54:01.616  INFO 29984 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3171 ms
+2022-10-06 16:54:03.515  INFO 29984 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:54:03.624  INFO 29984 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:54:03.661  INFO 29984 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.627 seconds (JVM running for 7.76)
+2022-10-06 16:54:06.029  INFO 29984 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:54:06.033  INFO 29984 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:54:06.035  INFO 29984 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:54:40.996  INFO 30164 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 30164 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006165422.jar started by root in /root/app/git/demo)
+2022-10-06 16:54:41.004  INFO 30164 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:54:43.995  INFO 30164 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:54:44.024  INFO 30164 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:54:44.024  INFO 30164 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:54:44.246  INFO 30164 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:54:44.255  INFO 30164 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3104 ms
+2022-10-06 16:54:46.060  INFO 30164 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:54:46.159  INFO 30164 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:54:46.193  INFO 30164 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.459 seconds (JVM running for 7.555)
+2022-10-06 16:54:48.750  INFO 30164 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:54:48.755  INFO 30164 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:54:48.761  INFO 30164 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 16:58:37.422  INFO 30471 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 30471 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006165824.jar started by root in /root/app/git/demo)
+2022-10-06 16:58:37.428  INFO 30471 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 16:58:40.262  INFO 30471 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 16:58:40.289  INFO 30471 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 16:58:40.290  INFO 30471 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 16:58:40.514  INFO 30471 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 16:58:40.514  INFO 30471 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2930 ms
+2022-10-06 16:58:42.372  INFO 30471 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 16:58:42.463  INFO 30471 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 16:58:42.503  INFO 30471 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.259 seconds (JVM running for 7.314)
+2022-10-06 16:58:45.290  INFO 30471 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 16:58:45.290  INFO 30471 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 16:58:45.293  INFO 30471 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 17:11:39.907  INFO 31175 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 31175 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006171126.jar started by root in /root/app/git/demo)
+2022-10-06 17:11:39.916  INFO 31175 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 17:11:42.835  INFO 31175 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 17:11:42.864  INFO 31175 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 17:11:42.866  INFO 31175 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 17:11:43.115  INFO 31175 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 17:11:43.115  INFO 31175 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3060 ms
+2022-10-06 17:11:44.996  INFO 31175 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 17:11:45.095  INFO 31175 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 17:11:45.143  INFO 31175 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.419 seconds (JVM running for 7.491)
+2022-10-06 17:11:47.746  INFO 31175 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 17:11:47.752  INFO 31175 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 17:11:47.758  INFO 31175 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 17:16:55.490  INFO 31404 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 31404 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006171640.jar started by root in /root/app/git/demo)
+2022-10-06 17:16:55.493  INFO 31404 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set2"
+2022-10-06 17:16:58.551  INFO 31404 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-06 17:16:58.575  INFO 31404 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 17:16:58.579  INFO 31404 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 17:16:58.816  INFO 31404 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 17:16:58.819  INFO 31404 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3186 ms
+2022-10-06 17:17:00.716  INFO 31404 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 17:17:00.828  INFO 31404 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-06 17:17:00.870  INFO 31404 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.68 seconds (JVM running for 7.735)
+2022-10-06 17:17:03.247  INFO 31404 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 17:17:03.249  INFO 31404 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 17:17:03.254  INFO 31404 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 17:20:00.167  INFO 31669 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 31669 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006171946.jar started by root in /root/app/git/demo)
+2022-10-06 17:20:00.171  INFO 31669 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 17:20:03.047  INFO 31669 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 17:20:03.066  INFO 31669 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 17:20:03.067  INFO 31669 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 17:20:03.300  INFO 31669 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 17:20:03.300  INFO 31669 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2995 ms
+2022-10-06 17:20:05.118  INFO 31669 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 17:20:05.216  INFO 31669 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 17:20:05.251  INFO 31669 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.336 seconds (JVM running for 7.415)
+2022-10-06 17:20:07.918  INFO 31669 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 17:20:07.923  INFO 31669 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 17:20:07.925  INFO 31669 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-06 17:26:02.974  INFO 31986 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.4 on onepromath-dev with PID 31986 (/root/app/jar/demo-0.0.1-SNAPSHOT-20221006172549.jar started by root in /root/app/git/demo)
+2022-10-06 17:26:02.981  INFO 31986 --- [           main] com.example.demo.DemoApplication         : The following 1 profile is active: "set1"
+2022-10-06 17:26:05.964  INFO 31986 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-06 17:26:05.985  INFO 31986 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-06 17:26:05.985  INFO 31986 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-06 17:26:06.217  INFO 31986 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-06 17:26:06.218  INFO 31986 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3088 ms
+2022-10-06 17:26:08.047  INFO 31986 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 17:26:08.159  INFO 31986 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-06 17:26:08.198  INFO 31986 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 6.487 seconds (JVM running for 7.6)
+2022-10-06 17:26:10.690  INFO 31986 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-06 17:26:10.692  INFO 31986 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-06 17:26:10.699  INFO 31986 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
