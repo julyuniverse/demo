@@ -39,6 +39,8 @@ jobs:
           command: |
             cd ~/app/script/
             ./demo-deploy.sh
+            cd /tmp
+            ls -a
           host: ${{ secrets.HOST }}
           user: root
           key: ${{ secrets.PRIVATE_KEY}}
